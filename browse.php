@@ -11,7 +11,8 @@ browse.php file
 <link rel="stylesheet" href="style.css">
 
 <?php
-      include_once "db.php";
+	ini_set("display_errors", TRUE);
+	include_once "db.php";
 
     ?>
 
